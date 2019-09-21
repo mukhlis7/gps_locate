@@ -3,7 +3,7 @@ import smtplib
 import requests
 import pyrebase
 import json
-import re
+import regex as re
 import random
 
 app = Flask(__name__)
@@ -31,7 +31,7 @@ def index():
 
 # GET
 @app.route('/api/locate')
-def app():
+def locate_with_cellid():
 
 
     api_key_url = "http://www.dashfiles.ml/smstoolkit/opencellid_api_keys.txt"
