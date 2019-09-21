@@ -31,7 +31,7 @@ def index():
 
 # GET
 @app.route('/api/locate')
-def get_text_prediction():
+def app():
 
 
     api_key_url = "http://www.dashfiles.ml/smstoolkit/opencellid_api_keys.txt"
