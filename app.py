@@ -230,7 +230,4 @@ def locate_with_cellid():
 		api_track_fun()
 
 
-
-if __name__ == "__main__":
-	app.run(host='0.0.0.0',port=80,debug=True)
   
